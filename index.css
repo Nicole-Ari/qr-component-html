@@ -1,10 +1,10 @@
 @font-face {
   font-family: "outfit-regular";
-  src: url("./assests/font/Outfit-Regular.ttf") format("truetype");
+  src: url("./assets/font/Outfit-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "outfit-bold";
-  src: url("./assests/font/Outfit-Bold.ttf") format("truetype");
+  src: url("./assets/font/Outfit-Bold.ttf") format("truetype");
 }
 * {
   margin: 0;
