@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "outfit-regular";
+  src: url("./assests/font/Outfit-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "outfit-bold";
+  src: url("./assests/font/Outfit-Bold.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background: #fff;
+  padding: 16px;
+  border-radius: 0.75rem;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.top-item {
+  background-image: url("./assests/image/qr-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.bottom-item > p:nth-child(1) {
+  font-family: "outfit-bold";
+  font-size: 1.2rem;
+  color: #1f314f;
+  text-align: center;
+}
+.bottom-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.bottom-item > p:nth-child(2) {
+  font-family: "outfit-regular";
+  font-size: 0.7rem;
+  color: #68778d;
+  text-align: center;
+  padding: 0 25px 0 25px;
+  margin-bottom: 30px;
+}
